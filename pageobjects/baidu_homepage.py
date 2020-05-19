@@ -14,11 +14,16 @@ from unit.base_page import BasePage
 # 百度首页类
 class BaiduHomePage(BasePage):
     # 百度首页
-    input_box = "id=>kw"
-    search_submit_btn = "xpath=>//*[@id='su']"
+    search_click = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/p/i'
+    input_box = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/input'
+    search_submit_btn = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/span/span/i[2]'
 
 
 # --------------------------------------------------------
+    #点击搜索按钮
+    def click_btn(self,text):
+        self.click(self.search_click)  #传递点击搜索按钮的值
+
     # 文本内容输入
     def type_search(self,text):
         self.send_keys(self.input_box,text) # 传递文本框 id 和 内容
@@ -30,8 +35,8 @@ class BaiduHomePage(BasePage):
 # --------------------------------------------------------
 
 
-    # 点击体育新闻入口  百度新闻入口
-    sports_link = "link_text=>新闻"
+    # 点击视频教程，输入搜索课程
+    sports_link = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/a[3]/span'
     input_box2 = "id=>ww"
     search_submit_btn2 = "id=>s_btn_wr"
 
