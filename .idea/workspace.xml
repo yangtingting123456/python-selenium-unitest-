@@ -1,101 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbad7f50-1747-4bab-a3ea-809e3d829a95" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/自动化测试项目.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/browser_engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301635.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301638.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301639.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301640.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301642.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301643.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301645.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201805301646.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011045.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011055.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011415.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011416.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011417.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011420.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011422.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011424.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011435.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011439.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011441.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011442.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011443.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011456.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011459.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011503.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011508.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011514.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011549.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011606.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011616.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011617.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011618.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011620.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011629.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806011635.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041009.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041010.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041011.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041012.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041014.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041016.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041017.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041019.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041020.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041021.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041023.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041025.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041027.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041028.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041037.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041038.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041045.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041046.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041048.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041130.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/201806041136.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageobjects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageobjects/baidu_homepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pageobjects/news_sport_home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806011045.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806011055.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806011417.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806011420.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806011423.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041038.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041048.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041131.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/201806041136.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_report/2018-06-04-11_36_29HTMLtemplate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/TestRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/baidu_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/demo_baidu_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/test_get_page_title.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testsuits/test_nba_news_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit/HTMLTestRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unit/base_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="fbad7f50-1747-4bab-a3ea-809e3d829a95" name="Default" comment="5555" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testsuits/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="27" column="12" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="171">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
               <folding>
                 <element signature="e#43#58#0" expanded="true" />
               </folding>
@@ -233,8 +139,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="293" />
-    <option name="y" value="129" />
+    <option name="x" value="274" />
     <option name="width" value="1698" />
     <option name="height" value="1046" />
   </component>
@@ -259,6 +164,16 @@
               <item name="自动化测试项目" type="b2602c69:ProjectViewProjectNode" />
               <item name="自动化测试项目" type="462c0819:PsiDirectoryNode" />
               <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="自动化测试项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="自动化测试项目" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="自动化测试项目" type="b2602c69:ProjectViewProjectNode" />
+              <item name="自动化测试项目" type="462c0819:PsiDirectoryNode" />
+              <item name="test_report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="自动化测试项目" type="b2602c69:ProjectViewProjectNode" />
@@ -413,8 +328,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527651770086</updated>
-      <workItem from="1589958972512" duration="290000" />
+      <workItem from="1589958972512" duration="966000" />
     </task>
+    <task id="LOCAL-00001" summary="5555">
+      <created>1589959364645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589959364646</updated>
+    </task>
+    <task id="LOCAL-00002" summary="5555">
+      <created>1589959396403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589959396403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -450,11 +380,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290000" />
+    <option name="totallyTimeSpent" value="966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="293" y="129" width="1698" height="1046" extended-state="0" />
-    <editor active="true" />
+    <frame x="274" y="0" width="1698" height="1046" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24786325" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -463,7 +392,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45504385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45504385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +400,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32894737" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -482,6 +411,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5555" />
+    <option name="LAST_COMMIT_MESSAGE" value="5555" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,7 +461,7 @@
         <state relative-caret-position="-25">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
-            <element signature="e#43#54#0" expanded="false" />
+            <element signature="e#43#54#0" />
           </folding>
         </state>
       </provider>
@@ -561,7 +494,7 @@
         <state relative-caret-position="608">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#43#96#0" expanded="false" />
+            <element signature="e#43#96#0" />
           </folding>
         </state>
       </provider>
@@ -583,17 +516,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/os.py" />
     <entry file="file://$PROJECT_DIR$/test_report/2018-06-04-11_36_29HTMLtemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pageobjects/baidu_homepage.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -652,8 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testsuits/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="171">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
           <folding>
             <element signature="e#43#58#0" expanded="true" />
           </folding>
