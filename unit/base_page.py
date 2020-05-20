@@ -72,20 +72,20 @@ class BasePage(object):
         """
         element = ''
         if '=>' not in selector:
-            return self.driver.find_element_by_id(selector)
+            return self.driver.find_element_by_xpath(selector)
         selector_by = selector.split('=>')[0] # 元素名称
         selector_value = selector.split('=>')[1] # 元素ID名称
 
         if selector_by == "i" or selector_by == "id":
             try:
-                element = self.driver.find_element_by_id(selector_value) # id 定位
+                element = self.driver.find_element_by_xpath(selector_value) # id 定位
                 logger.info("Had find the element \' %s \' successful"
                             "by %s via value:%s" %(element.text,selector_by,selector_value))
             except NoSuchElementException as e:
                 logger.error("NoSuchElementException:%s" %e)
                 self.get_windows_img()
         elif selector_by == "n" or selector_by == "name":
-            element = self.driver.find_element_by_name(selector_value) # name 名称定位
+            element = self.driver.find_element_by_xpath(selector_value) # name 名称定位
         elif selector_by == "c" or selector_by == "class_name":
             element = self.driver.find_element_by_class_name(selector_value) # css 样式名称定位
         elif selector_by == "l" or selector_by == "link_text":
@@ -100,7 +100,7 @@ class BasePage(object):
             element = self.driver.find_element_by_partial_link_text(selector_value)
         elif selector_by == "t" or selector_by == "tag_name":
             element = self.driver.find_element_by_tag_name(selector_value)
-        elif selector_by == "x" or selector_by == "xpath" :
+        elif selector_by == "x" or selector_by == "xpath" :      #xpath定位
             try:
                 element = self.driver.find_element_by_xpath(selector_value)
                 logger.info("Had find the element \' %s \' successful"

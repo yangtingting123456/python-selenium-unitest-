@@ -20,13 +20,17 @@ class BaiduSearch(unittest.TestCase):
     # 百度查询：selenium
     def test_baidu_search(self):
         try:
+
             homepage = BaiduHomePage(self.driver)
-            homepage.type_search("selenium")  # 调用方法，向文本框输入内容
+            homepage.search_click()      #打开搜索按钮
+            homepage.type_search("maya")  # 调用方法，向文本框输入内容
             homepage.send_submit_btn()  # 调用方法，点击页面按钮
             time.sleep(2)
             homepage.get_windows_img()
+            time.sleep(2)
+
             try:
-                assert "selenium" in homepage.get_url_title() # 调用页面对象继承基类中的获取页面标题方法
+                assert "ABOUTCG在线课堂 | 高端CG教育" in homepage.get_url_title() # 调用页面对象继承基类中的获取页面标题方法
                 logger.info("Test Pass")
             except Exception as e:
                 logger.error("Test Fail:%s" % e)
@@ -37,12 +41,15 @@ class BaiduSearch(unittest.TestCase):
     def test_baidu_search2(self):
         try:
             homepage = BaiduHomePage(self.driver)
-            homepage.type_search("python")  # 调用方法，输入文本
+            homepage.search_click()   #调用搜索按钮
+            homepage.type_search("ue4")  # 调用方法，输入文本
             homepage.send_submit_btn()  # 调用方法，点击按钮
             time.sleep(2)
             homepage.get_windows_img()
+            time.sleep(2)
+
             try:
-                assert "python" in homepage.get_url_title()  # 调用页面对象继承基类中的获取页面标题方法
+                assert "ABOUTCG在线课堂 | 高端CG教育" in homepage.get_url_title()  # 调用页面对象继承基类中的获取页面标题方法
                 logger.info("Test Pass")
             except Exception as e:
                 logger.error("Test Fail:%s" % e)

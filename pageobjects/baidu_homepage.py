@@ -13,10 +13,10 @@ from unit.base_page import BasePage
 """
 # 百度首页类
 class BaiduHomePage(BasePage):
-    # 百度首页
-    search_click = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/p/i'
-    input_box = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/input'
-    search_submit_btn = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/span/span/i[2]'
+    # aboutcg首页，点击输入搜索按钮，输入内容，点击搜索按钮
+    search_click = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/p/i'        #输入搜索按钮
+    input_box = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/input'    #输入搜索内容
+    search_submit_btn = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/span/span/i[2]'   #点击搜索按钮
 
 
 # --------------------------------------------------------
@@ -36,24 +36,27 @@ class BaiduHomePage(BasePage):
 
 
     # 点击视频教程，输入搜索课程
-    sports_link = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/a[3]/span'
-    input_box2 = "id=>ww"
-    search_submit_btn2 = "id=>s_btn_wr"
+    sports_link = '//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/a[3]/span'    #视频教程页面
+    input_box2 = "id=>ww"    #输入搜索内容
+    search_submit_btn2 = "id=>s_btn_wr"    #点击搜索按钮
 
-    # 跳转体育新闻界面
+    # 跳转到视频教程页面
     def click_sports_link(self):
         self.click(self.sports_link)
         time.sleep(2)
 
-    # 新闻界面文本框输入
+    # 输入搜索内容
     def new_type_search(self):
         self.clear(self.input_box2)
 
-    # 新闻界面搜索按钮点击
+    # 点击搜索按钮
     def new_btn_click(self):
         self.click(self.search_submit_btn2)
 
 # -----------------------------------------------------------
+
+
+
 
 
 

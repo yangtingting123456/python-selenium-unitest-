@@ -21,10 +21,17 @@ class BaiduSearch(unittest.TestCase):
 
     def test_baidu_search(self):
         try:
-            self.driver.find_element_by_id("kw").send_keys("selenium")
-            self.driver.find_element_by_id("su").click()
-            logger.info("baidu send_keys selenium")
-            assert 'selenium' in self.driver.title
+            time.sleep(3)
+            self.driver.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/p/i').click()
+            time.sleep(3)
+            self.driver.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/input').send_keys("maya")
+            time.sleep(3)
+            self.driver.find_element_by_xpath('//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/div/div/span/span/i[2]').click()
+            time.sleep(3)
+            logger.info("aboutcg index page search maya")
+            print(self.driver.title())
+            time.sleep(11)
+            assert 'maya' in self.driver.title
             logger.info("OK")
         except Exception as e:
             logger.info("Test Fail:%s" % format(e))
