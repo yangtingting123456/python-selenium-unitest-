@@ -1,0 +1,30 @@
+2020-05-20 15:21:04,460 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 15:21:04,461 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2020-05-20 15:21:09,738 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 15:21:10,872 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2020-05-20 15:21:10,873 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 15:21:10,941 - BasePage - INFO - Had find the element '  ' successfulby id via value:kw 
+2020-05-20 15:21:11,314 - BasePage - INFO - Had type ' selenium ' in inputBox 
+2020-05-20 15:21:11,346 - BasePage - INFO - Had find the element '  ' successfulby xpath via value://*[@id='su'] 
+2020-05-20 15:21:11,441 - BasePage - INFO - The emement was click 
+2020-05-20 15:21:15,190 - BasePage - INFO - Had take screenshot and save to folder : /screenshots 
+2020-05-20 15:21:15,287 - BasePage - INFO - Current page title is selenium_百度搜索 
+2020-05-20 15:21:15,568 - BaiduSearch - INFO - Test Pass 
+2020-05-20 15:21:18,912 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 15:21:18,912 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2020-05-20 15:21:23,363 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 15:21:25,527 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2020-05-20 15:21:25,528 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 15:21:25,669 - BasePage - INFO - Had find the element '  ' successfulby id via value:kw 
+2020-05-20 15:21:25,994 - BasePage - INFO - Had type ' python ' in inputBox 
+2020-05-20 15:21:26,058 - BasePage - INFO - Had find the element '  ' successfulby xpath via value://*[@id='su'] 
+2020-05-20 15:21:26,151 - BasePage - INFO - The emement was click 
+2020-05-20 15:21:28,968 - BasePage - INFO - Had take screenshot and save to folder : /screenshots 
+2020-05-20 15:21:28,979 - BasePage - INFO - Current page title is python_百度搜索 
+2020-05-20 15:21:28,994 - BaiduSearch - INFO - Test Pass 
+2020-05-20 15:21:33,019 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 15:21:33,020 - BrowserEngine - INFO - The test server url is http://www.baidu.com 
+2020-05-20 15:21:37,443 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 15:21:38,315 - BrowserEngine - INFO - Open url http://www.baidu.com 
+2020-05-20 15:21:38,316 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 15:21:38,324 - BasePage - INFO - Current page title is 百度一下，你就知道 
