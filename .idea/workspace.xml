@@ -1,69 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbad7f50-1747-4bab-a3ea-809e3d829a95" name="Default" comment="编写首页定位元素po">
+    <list default="true" id="fbad7f50-1747-4bab-a3ea-809e3d829a95" name="Default" comment="修改相关方法并测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301635.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301638.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301639.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301640.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301642.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301643.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301645.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201805301646.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011045.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011055.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011415.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011416.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011417.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011420.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011422.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011424.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011435.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011439.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011441.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011442.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011443.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011456.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011459.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011503.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011508.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011514.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011549.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011606.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011616.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011617.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011618.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011620.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011629.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806011635.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041009.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041010.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041011.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041012.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041014.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041016.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041017.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041019.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041020.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041021.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041023.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041025.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041027.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041028.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041037.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041038.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041045.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041046.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041048.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041130.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/201806041136.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageobjects/baidu_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageobjects/baidu_homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageobjects/news_sport_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageobjects/news_sport_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/baidu_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/baidu_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/demo_baidu_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/demo_baidu_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsuits/test_get_page_title.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsuits/test_get_page_title.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit/base_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testsuits/TestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+            <state relative-caret-position="306">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding>
                 <element signature="e#43#58#0" expanded="true" />
               </folding>
@@ -607,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589882387024</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改相关方法并测试">
+      <created>1589957280164</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589957280164</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -643,7 +589,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15170000" />
+    <option name="totallyTimeSpent" value="15471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,7 +602,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="502" y="0" width="1427" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19678128" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -725,7 +670,8 @@
     <MESSAGE value="自动化测试代码首次提交" />
     <MESSAGE value="修改配置文件" />
     <MESSAGE value="编写首页定位元素po" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写首页定位元素po" />
+    <MESSAGE value="修改相关方法并测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改相关方法并测试" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$Unittests_in_baidu_search_py.coverage" NAME="Unittests in baidu_search.py Coverage Results" MODIFIED="1589943606249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
@@ -925,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testsuits/TestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        <state relative-caret-position="306">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
             <element signature="e#43#58#0" expanded="true" />
           </folding>

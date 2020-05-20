@@ -1,0 +1,18 @@
+2020-05-20 14:05:27,164 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 14:05:27,165 - BrowserEngine - INFO - The test server url is https://w3-test.aboutcg.org/home 
+2020-05-20 14:05:31,966 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 14:05:40,051 - BrowserEngine - INFO - Open url https://w3-test.aboutcg.org/home 
+2020-05-20 14:05:40,052 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 14:05:40,061 - BaiduSearch - ERROR - Test Fail:'str' object is not callable 
+2020-05-20 14:05:42,670 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 14:05:42,671 - BrowserEngine - INFO - The test server url is https://w3-test.aboutcg.org/home 
+2020-05-20 14:05:46,549 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 14:05:56,818 - BrowserEngine - INFO - Open url https://w3-test.aboutcg.org/home 
+2020-05-20 14:05:56,820 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 14:05:56,820 - BaiduSearch - ERROR - Test Fail:'str' object is not callable 
+2020-05-20 14:05:59,244 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 14:05:59,244 - BrowserEngine - INFO - The test server url is https://w3-test.aboutcg.org/home 
+2020-05-20 14:06:03,972 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 14:06:12,625 - BrowserEngine - INFO - Open url https://w3-test.aboutcg.org/home 
+2020-05-20 14:06:12,626 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 14:06:12,634 - BasePage - INFO - Current page title is ABOUTCG在线课堂 | 高端CG教育 

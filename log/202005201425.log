@@ -1,0 +1,8 @@
+2020-05-20 14:25:36,836 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 14:25:36,836 - BrowserEngine - INFO - The test server url is https://w3-test.aboutcg.org/home 
+2020-05-20 14:25:40,278 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 14:25:50,176 - BrowserEngine - INFO - Open url https://w3-test.aboutcg.org/home 
+2020-05-20 14:25:50,177 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 14:26:04,208 - BaiduSearch - INFO - aboutcg index page search maya 
+2020-05-20 14:26:04,387 - BaiduSearch - INFO - Test Fail:'str' object is not callable 
+2020-05-20 14:26:04,388 - BaiduSearch - INFO - Now,Close and quit the browser. 

@@ -1,0 +1,10 @@
+2020-05-20 14:24:32,237 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 14:24:32,237 - BrowserEngine - INFO - The test server url is https://w3-test.aboutcg.org/home 
+2020-05-20 14:24:35,747 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 14:24:45,733 - BrowserEngine - INFO - Open url https://w3-test.aboutcg.org/home 
+2020-05-20 14:24:45,734 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 14:24:46,058 - BaiduSearch - INFO - Test Fail:Message: unknown error: Element is not clickable at point (965, 184)
+  (Session info: chrome=79.0.3945.79)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.17763 x86_64)
+ 
+2020-05-20 14:24:46,059 - BaiduSearch - INFO - Now,Close and quit the browser. 

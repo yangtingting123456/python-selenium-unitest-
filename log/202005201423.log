@@ -1,0 +1,11 @@
+2020-05-20 14:23:13,235 - BrowserEngine - INFO - You had select Chrome browser. 
+2020-05-20 14:23:13,235 - BrowserEngine - INFO - The test server url is https://w3-test.aboutcg.org/home 
+2020-05-20 14:23:18,157 - BrowserEngine - INFO - Starting Chorme browser 
+2020-05-20 14:23:29,627 - BrowserEngine - INFO - Open url https://w3-test.aboutcg.org/home 
+2020-05-20 14:23:29,632 - BrowserEngine - INFO - Set implicitly wait 10 seconds 
+2020-05-20 14:23:29,664 - BaiduSearch - INFO - Test Fail:Message: invalid selector: Unable to locate an element with the xpath expression "//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/p/i" because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '"//*[@id="app"]/div[1]/div[1]/div[3]/div/div[1]/div/p/i"' is not a valid XPath expression.
+  (Session info: chrome=79.0.3945.79)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.17763 x86_64)
+ 
+2020-05-20 14:23:29,665 - BaiduSearch - INFO - Now,Close and quit the browser. 
